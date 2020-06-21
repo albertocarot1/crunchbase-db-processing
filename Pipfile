@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+mockito = "*"
+
+[packages]
+
+[requires]
+python_version = "3.7"
+
+[scripts]
+test = "python -m unittest discover . -p 'test_*.py'"
+dump_company = "python dump_company.py"
