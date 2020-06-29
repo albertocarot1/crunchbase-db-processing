@@ -14,3 +14,4 @@ python_version = "3.7"
 [scripts]
 test = "python -m unittest discover . -p 'test_*.py'"
 dump_company = "python dump_company.py"
+dump_companies = "python dump_companies.py"

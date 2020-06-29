@@ -172,3 +172,4 @@ terraform.env
 *.tfstate*
 fex.out
 .data
+/data/
