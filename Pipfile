@@ -13,6 +13,6 @@ click = "*"
 python_version = "3.7"
 
 [scripts]
-test = "python -m unittest discover . -p 'test_*.py'"
-dump_company = "python dump_company.py"
-dump_companies = "python dump_companies.py"
+tests = "python -m unittest discover . -p 'test_*.py'"
+dump_companies_options = "python dump_companies.py --help"
+dump_companies = "python dump_companies.py --min_investments 100000000000000"

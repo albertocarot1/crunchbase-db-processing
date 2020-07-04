@@ -9,7 +9,7 @@ from dump.CrunchbaseReader import CrunchbaseReader
 @click.option('-c','--category_codes', type=str, multiple=True, help='Acceptable category_codes. If empty, all category_codes are accepted.')
 @click.option('--min_investments', type=int, required=True, help='Minimum amount of total USD investment in a company (as the sum of the disclosed amounts in funding_rounds)')
 def extract_csv_to_json(keep_going, out_file, num_companies, category_codes, min_investments):
-    """ Extract the csv into a json-line file, with described inputs as parameters. """
+    """ Extract data from the Crunchbase dump (csv files, which must be in the 'data' folder) into a json-line file, with the following options. """
     company_reader = CrunchbaseReader(f"data/",
                                       "objects.csv",
                                       "funding_rounds.csv",

@@ -59,3 +59,22 @@ pipenv run dump_companies # This you'll need to create
 
 Good luck! Please remember to communicate with us while you're working on the project. 
 We'll endeavour to be responsive, but remember that working remotely is all about time-management and asynchronous communication.
+
+## Outcome
+
+The following steps can be quickly launched to see the program working as described above:
+```shell script
+pipenv run tests 
+pipenv run dump_companies
+```
+For the other scenarios, launch the following command to see the script's interface:
+```shell script
+pipenv run dump_companies_options
+```
+
+The script can be used with the full options inside the virtual env.
+In order to do that run the commands:
+```shell script
+pipenv install  # This will install the virtual env and activate it
+python dump_companies.py  # Add the desired options, described by pipenv run dump_companies_options, or just by adding --help as an option.
+```
