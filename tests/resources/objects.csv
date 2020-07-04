@@ -1,10 +1,93 @@
 id,entity_type,entity_id,parent_id,name,normalized_name,permalink,category_code,status,founded_at,closed_at,domain,homepage_url,twitter_username,logo_url,logo_width,logo_height,short_description,description,overview,tag_list,country_code,state_code,city,region,first_investment_at,last_investment_at,investment_rounds,invested_companies,first_funding_at,last_funding_at,funding_rounds,funding_total_usd,first_milestone_at,last_milestone_at,milestones,relationships,created_by,created_at,updated_at
 "c:1","Company","1",\N,"Wetpaint","wetpaint","/company/wetpaint","web","operating","2005-10-17",\N,"wetpaint-inc.com","http://wetpaint-inc.com","BachelrWetpaint","http://s3.amazonaws.com/crunchbase_prod_assets/assets/images/resized/0000/3601/3601v1-max-250x250.png","401","54",\N,"Technology Platform Company","Wetpaint is a technology platform company that uses its proprietary state-of-the-art technology and expertise in social media to build and monetize audiences for digital publishers. Wetpaint’s own online property, Wetpaint Entertainment, an entertainment news site that attracts more than 12 million unique visitors monthly and has over 2 million Facebook fans, is a proof point to the company’s success in building and engaging audiences. Media companies can license Wetpaint’s platform which includes a dynamic playbook tailored to their individual needs and comprehensive training. Founded by Internet pioneer Ben Elowitz, and with offices in New York and Seattle, Wetpaint is backed by Accel Partners, the investors behind Facebook.","wiki, seattle, elowitz, media-industry, media-platform, social-distribution-system","USA","WA","Seattle","Seattle",\N,\N,\N,\N,"2005-10-01","2008-05-19","3","39750000","2010-09-05","2013-09-18","5","17","initial-importer","2007-05-25 06:51:27","2013-04-13 03:29:00"
-"c:10","Company","10",\N,"Flektor","flektor","/company/flektor","games_video","acquired",\N,\N,"flektor.com","http://www.flektor.com",\N,"http://s3.amazonaws.com/crunchbase_prod_assets/assets/images/resized/0000/2398/2398v4-max-250x250.png","186","85",\N,\N,"Flektor is a rich-media mash-up platform that enables consumers to create, remix and share photos and videos on the internet without the need for advanced video-editing skills or software.\
-\
+"c:10","Company","10",\N,"Flektor","flektor","/company/flektor","games_video","acquired",\N,\N,"flektor.com","http://www.flektor.com",\N,"http://s3.amazonaws.com/crunchbase_prod_assets/assets/images/resized/0000/2398/2398v4-max-250x250.png","186","85",\N,\N,"Flektor is a rich-media mash-up platform that enables consumers to create, remix and share photos and videos on the internet without the need for advanced video-editing skills or software.
+\
+
+\
 Fox Interactive Media, a division of News Corporation, announced that it had completed the purchase of Flektor on May 30, 2007.  The estimated puchase price is $15-20 million.","flektor, photo, video","USA","CA","Culver City","Los Angeles",\N,\N,\N,\N,\N,\N,\N,\N,\N,\N,\N,"6","initial-importer","2007-05-31 21:11:51","2008-05-23 23:23:14"
-"c:100","Company","100",\N,"There","there","/company/there","games_video","acquired",\N,\N,"there.com","http://www.there.com",\N,"http://s3.amazonaws.com/crunchbase_prod_assets/assets/images/resized/0000/4057/4057v25-max-250x250.png","107","34",\N,"","There.com is an online virtual world where anyone can explore, meet friends and play games. It was founded in 1998 by Will Harvey, a Stanford computer science Ph.D. and game developer, and Jeffrey Ventrella, an expert on artificial life from MIT's Media Lab. The duo raised approximately $37 million - including $20 million from employees, $11 million from angel investors and $6 million from Sutter Hill Ventures. In 2005 the company was spun off under Makena Technologies, and in March 2010 There closed to the public. In May 2011, There announced it would reopen as a 18+ Cloud-based service. As of Nov 2013, There is open.\
-\
-There.com is a subscription service with a monthly fee of $10.00. Additional in-game accessories can be purchased for separate fees.\
-\
+"c:100","Company","100",\N,"There","there","/company/there","games_video","acquired",\N,\N,"there.com","http://www.there.com",\N,"http://s3.amazonaws.com/crunchbase_prod_assets/assets/images/resized/0000/4057/4057v25-max-250x250.png","107","34",\N,"","There.com is an online virtual world where anyone can explore, meet friends and play games. It was founded in 1998 by Will Harvey, a Stanford computer science Ph.D. and game developer, and Jeffrey Ventrella, an expert on artificial life from MIT's Media Lab. The duo raised approximately $37 million - including $20 million from employees, $11 million from angel investors and $6 million from Sutter Hill Ventures. In 2005 the company was spun off under Makena Technologies, and in March 2010 There closed to the public. In May 2011, There announced it would reopen as a 18+ Cloud-based service. As of Nov 2013, There is open.
+\
+
+\
+There.com is a subscription service with a monthly fee of $10.00. Additional in-game accessories can be purchased for separate fees.
+\
+
+\
 Other online virtual worlds include [Kaneva](http://www.crunchbase.com/company/kaneva), [Second Life](http://www.crunchbase.com/company/secondlife) and [Cyworld](http://www.crunchbase.com/company/cyworld).","virtualworld, there, teens","USA","CA","San Mateo","SF Bay",\N,\N,\N,\N,\N,\N,\N,\N,"2003-02-01","2011-09-23","4","12","initial-importer","2007-08-06 23:52:45","2013-11-04 02:09:48"
+"c:5","Company","5",\N,"Facebook","facebook","/company/facebook","social","ipo","2004-02-01",\N,"facebook.com","http://facebook.com","facebook","http://s3.amazonaws.com/crunchbase_prod_assets/assets/images/resized/0000/4552/4552v2-max-250x250.jpg","2100","790","Facebook is an online social networking service that allows users to connect with friends and family, and make new connections.","Social network","Facebook is the world's largest social network, with over [1.15 billion monthly active users](http://techcrunch.com/2013/07/24/facebook-growth-2/).
+\
+
+\
+Facebook was founded by [Mark Zuckerberg](http://www.crunchbase.com/person/mark-zuckerberg) in February 2004, initially as an exclusive network for Harvard students. It was a huge hit: in 2 weeks, half of the schools in the Boston area began demanding a Facebook network. Zuckerberg immediately recruited his friends [Dustin Moskovitz](http://www.crunchbase.com/person/dustin-moskovitz), [Chris Hughes](/person/chris-hughes), and [Eduardo Saverin](/person/eduardo-saverin) to help build Facebook, and within four months, Facebook added 30 more college networks.
+\
+
+\
+The original idea for the term Facebook came from Zuckerberg's high school (Phillips Exeter Academy). The Exeter Face Book was passed around to every student as a way for students to get to know their classmates for the following year. It was a physical paper book until Zuckerberg brought it to the internet.
+\
+
+\
+With this success, Zuckerberg, Moskowitz and Hughes moved out to [Palo Alto](/maps/city/Palo%2520Alto) for the summer and rented a sublet. A few weeks later, Zuckerberg ran into the former cofounder of [Napster](/company/napster), [Sean Parker](/person/sean-parker). Parker soon moved in to Zuckerberg's apartment and they began working together.  Parker provided the introduction to their first investor, [Peter Thiel](/person/peter-thiel), cofounder of [PayPal](/company/paypal) and managing partner of [The Founders Fund](http://www.crunchbase.com/financial-organization/founders-fund). Thiel invested $500,000 into Facebook.
+\
+
+\
+With millions more users, [Friendster](/company/friendster) [attempted](http://www.techcrunch.com/2006/12/12/yahoos-project-fraternity-docs-leaked/) to acquire the company for $10 million in mid 2004. Facebook turned down the offer and subsequently received $12.7 million in funding from [Accel Partners](http://www.crunchbase.com/financial-organization/accel-partners), at a valuation of [around $100 million](http://www.techcrunch.com/2005/09/07/85-of-college-students-use-facebook/). Facebook continued to grow, opening up to high school students in September 2005 and adding an immensely popular photo sharing feature the next month. The next spring, Facebook received $25 million in funding from [Greylock Partners](http://www.crunchbase.com/financial-organization/greylock) and [Meritech Capital](http://www.crunchbase.com/financial-organization/meritech-capital-partners), as well as previous investors Accel Partners and Peter Thiel. The pre-money valuation for this deal was about $525 million. Facebook subsequently [opened](http://www.techcrunch.com/2006/04/26/facebook-goes-beyond-college-high-school-markets/) up to work networks, eventually amassing over 20,000 work networks. Finally in September 2006, Facebook [opened](http://www.techcrunch.com/2006/09/26/facebook-just-launched-open-registrations/) to anyone with an email address.
+\
+
+\
+In the summer of 2006, [Yahoo](/company/yahoo) [attempted to acquire](http://www.techcrunch.com/2006/09/21/facebook-and-yahoo-in-acquisition-talks-for-1-billion/) the company for $1 billion dollars. [Reports](http://www.wired.com/techbiz/startups/news/2007/09/ff_facebook) actually indicated that Zuckerberg made a verbal agreement to sell Facebook to Yahoo. A few days later when Yahoo's stock price took a dive, the offer was lowered to $800 million and Zuckerberg walked away from the deal.  Yahoo later [offered](http://www.techcrunch.com/2006/12/12/yahoos-project-fraternity-docs-leaked/) $1 billion again, this time Zuckerberg turned Yahoo down and earned instant notoriety as the \"kid\" who turned down a billion. This was not the first time Zuckerberg turned down an acquisition offer; [Viacom](/company/viacom) had previously [unsuccessfully](http://www.techcrunch.com/2006/03/28/facebook-is-doing-the-skype-dance/) attempted to acquire the company for $750 million in March 2006.
+\
+
+\
+Not long after, in October 2007, [Microsoft invested](http://www.techcrunch.com/2007/10/24/facebook-takes-the-microsoft-money-and-runs/) $240 million into Facebook for 1.6 percent of the company in. This meant a valuation of over $15 billion, making Facebook the [5th most valuable US Internet company](http://www.techcrunch.com/2007/10/25/perspective-facebook-is-now-5th-most-valuable-us-internet-company/), yet with only $150 million in annual revenue. Many explained Microsoft's decision as being solely driven by the desire to outbid Google.
+\
+
+\
+Facebook continued to receive funding, most notably in January 2011 receiving a [$1.5 billion round](http://techcrunch.com/2011/01/21/facebook-raises-1-5-billion-at-50-billion-valuation/), valuing the company at $50 billion. A year later, in February 2012, Facebook [announced](http://techcrunch.com/2012/02/01/facebook-files-for-5-billion-ipo/) that it was filing for its long-anticipated initial public offering. The company went public on May 18, 2012, opening on the NASDAQ with shares trading at [$42.05](http://techcrunch.com/2012/05/18/facebook-share-open-10-5-higher-at-42/).
+\
+
+\
+One sour note for Facebook has been the [controversy](http://www.techcrunch.com/2007/07/16/the-ghost-of-zuckerbergs-past-may-haunt-facebook-ipo/) with social network ConnectU. The founders of ConnectU, former classmates of Mark Zuckerberg at Harvard, allege that Zuckerberg stole their original source code for Facebook. The ordeal has [gone to court](http://www.techcrunch.com/2007/10/10/facebook-vs-connectu-facebook-makes-untrue-assertions-claims-connectu/), and has now been [resolved](http://techcrunch.com/2011/06/22/after-seven-years-the-winklevosses-give-up-on-battle-with-facebook/).
+\
+
+\
+Notwithstanding this lingering controversy, Facebook's growth has been staggering. Facebook announced [astonishing numbers](http://techcrunch.com/2012/02/01/facebooks-s-1-845-million-users-every-month-more-than-half-daily-and-nearly-half-mobile/) in February 2012 upon filing for its IPO. As of July 2013, over [1.15 billion](http://techcrunch.com/2013/07/24/facebook-growth-2/) users log into Facebook every month, and 669 million users log in daily. Mobile users now make up half of Facebook's user base, with 819 million monthly actives. Facebook has also announced that by the end of 2011 there had been 100 billion friend connections, and in recent months users had been registering 2.7 billion Likes and Comments per day. Facebook is one of the [most trafficked sites](http://techcrunch.com/2010/12/29/hitwise-facebook-overtakes-google-to-become-most-visited-website-in-2010/) in the US, and its international growth has been impressive. Additionally, Facebook is the top photo sharing site with 250 million photos uploaded per day.
+\
+
+\
+Facebook users' [passion](http://www.techcrunch.com/2007/11/13/i-just-cant-be-a-college-student-without-facebook/)—or [addiction](http://www.techcrunch.com/2007/03/09/career-advice-dont-choose-facebook-over-your-job/)—to the site is unparalleled: more than half use the product every single day and users spend an average of 19 minutes a day on Facebook. The site's popularity has garnered it pop culture fame, so much so that in 2010 a feature film entitled _The Social Network_ was released which chronicled Facebook's inception.
+\
+
+\
+In its 2012 [IPO filing](http://techcrunch.com/2012/02/01/facebook-files-for-5-billion-ipo/), Facebook announced that it intends to grow in the near future by expanding its global user base, increasing engagement by developing new social tools, improving the mobile experience, and creating more value for advertisers and users.","facebook, college, students, profiles, network, online-communities, social-networking","USA","CA","Menlo Park","SF Bay","2008-12-01","2013-11-12","3","3","2004-09-01","2011-01-21","11","2425700000","2009-01-10","2013-12-12","5","269","initial-importer","2007-05-25 21:22:15","2013-08-27 14:41:51"
+"p:65698","Person","65698",\N,"Craig Lewiston","craig lewiston","/person/craig-lewiston",\N,"operating",\N,\N,\N,\N,\N,\N,\N,\N,\N,\N,\N,\N,\N,\N,\N,"unknown",\N,\N,\N,\N,\N,\N,\N,\N,\N,\N,\N,"1",\N,"2010-08-09 16:27:51","2010-08-09 17:26:58"
+"p:65699","Person","65699",\N,"Brennan Knotts","brennan knotts","/person/brennan-knotts",\N,"operating",\N,\N,\N,\N,\N,\N,\N,\N,\N,\N,\N,\N,\N,\N,\N,"unknown",\N,\N,\N,\N,\N,\N,\N,\N,\N,\N,\N,"2",\N,"2010-08-09 16:29:36","2010-08-09 17:40:24"
+"p:2","Person","2",\N,"Ben Elowitz","ben elowitz","/person/ben-elowitz",\N,"operating",\N,\N,"wetpaint-inc.com","http://www.wetpaint-inc.com","elowitz","http://s3.amazonaws.com/crunchbase_prod_assets/assets/images/resized/0001/8470/18470v3-max-250x250.jpg","277","185",\N,\N,"Ben Elowitz is co-founder and CEO of [Wetpaint](http://www.wetpaint-inc.com) a technology platform company that uses its expertise in social media to build and monetize audiences.  Wetpaint works with major media companies to implement the Wetpaint Social Distribution System, which optimizes content, timing and packaging of content to drive massive reach, engagement and monetizeable actions. Wetpaint has more than 15 million unique visitors monthly on its own [_Wetpaint Entertainment_](http://www.wetpaint.com) media property.
+\
+
+\
+Ben is also a thought leader on the subject of next-generation digital media publishing and the author of Digital Quarters, www.digitalquarters.net, a blog about the future of digital media and the steps the publishing industry must take to become profitable. In addition,  he writes Media Success, a bold and forthright newsletter for digital media thought leaders. His work has been featured in Fortune, Forbes, TechCrunch, All Things D, The Huffington Post, Business Insider, paidContent, and CNBC.com, among others. In addition, he has presented at Web 2.0 Expo, Seattle Interactive, WOMMA, Montgomery Technology Conference, SxSW Interactive, Adweek NexTech, and Fortune Brainstorm TECH.
+\
+
+\
+Ben offers fresh, thoughtful and often provocative insights on the digital publishing industry from an executive and consumer perspective, covering a range of sectors and industries including business, media, technology, marketing, and advertising.  He provides well-researched analysis of emerging and long-term trends, as well as timely commentary on breaking news.
+\
+
+\
+Ben is also well-known as co-founder and former vice-president of Blue Nile Inc., the leading online retailer of certified diamonds and fine jewelry. He oversaw the company's front-end operations, which included product management, technology, and creative services from 1999 to 2001. Blue Nile, a publicly traded company (NILE), is widely recognized as the first and most successful online luxury goods retail site.
+\
+
+\
+Prior to founding Wetpaint, Ben worked at Precor USA Inc., one of the country's most successful fitness equipment brands. From 2002 to 2005, he helped Precor in its transition to a customer-driven, growth-oriented company. At Precor,  Ben led product management, marketing, and new product development efforts for commercial equipment lines.
+\
+
+\
+In 2002, Ben consulted for eHarmony.com, a web service that matches marriage-minded singles. While there, he re-engineered the company's positioning and website to improve branding, messaging, and conversion.
+\
+
+\
+Prior to Blue Nile, Ben was an early employee and senior leader at the online professional, technical, and business bookstore Fatbrain.com, which was acquired by Barnes & Noble. As the Director of Business Development, Ben looked after product management, marketing programs, and business development from 1996 to 1999. He created the company's strategic partners and corporate bookstore programs which were cornerstones of the company's business-to-business revenue line.
+\
+
+\
+Ben holds a B.S. in Electrical Engineering and Computer Science, and a B.A. in Applied Mathematics from the University of California, Berkeley.  After graduation, Ben worked at the global business consulting firm Bain & Company. As a management consultant, he specialized in providing business strategies to the high-tech industry.","wetpaint, wikis, blue-nile",\N,\N,\N,"unknown",\N,\N,\N,\N,\N,\N,\N,\N,\N,\N,\N,"8","initial-importer","2007-05-25 07:03:54","2012-12-22 07:53:50"
+"p:3","Person","3",\N,"Kevin Flaherty","kevin flaherty","/person/kevin-flaherty",\N,"operating",\N,\N,\N,\N,\N,"http://s3.amazonaws.com/crunchbase_prod_assets/assets/images/resized/0001/8471/18471v1-max-250x250.jpg","200","133",\N,\N,"Brand development, creative agency management, public relations, SEM/SEO, customer acquisition and retention, social media, general management","",\N,\N,\N,"unknown",\N,\N,\N,\N,\N,\N,\N,\N,\N,\N,\N,"11","initial-importer","2007-05-25 07:04:16","2013-11-21 10:00:26"
