@@ -1,39 +1,27 @@
-import multiprocessing
-from subprocess import Popen
+import click
 
+from dump.CrunchbaseReader import CrunchbaseReader
 
-def main():
-    max_concurr = multiprocessing.cpu_count() - 1
+@click.command()
+@click.option('--keep_going', default=False, show_default=True, is_flag=True, help='Flag. If added, continue on the same file from the latest company. Otherwise restart from the first company.')
+@click.option('--out_file', type=str, default="companies.json", show_default=True, help='The JSON-line file where the companies will be written')
+@click.option('--num_companies', type=int, help='The number of companies to output')
+@click.option('-c','--category_codes', type=str, multiple=True, help='Acceptable category_codes. If empty, all category_codes are accepted.')
+@click.option('--min_investments', type=int, required=True, help='Minimum amount of total USD investment in a company (as the sum of the disclosed amounts in funding_rounds)')
+def extract_csv_to_json(keep_going, out_file, num_companies, category_codes, min_investments):
+    """ Extract the csv into a json-line file, with described inputs as parameters. """
+    company_reader = CrunchbaseReader(f"data/",
+                                      "objects.csv",
+                                      "funding_rounds.csv",
+                                      "ipos.csv",
+                                      "people.csv",
+                                      "relationships.csv",
+                                      min_investments_usd=min_investments,
+                                      num_companies_cap=num_companies,
+                                      acc_category_codes=category_codes)
 
-    configs = [f'min_words={el}' for el in range(2, 64, 1)]
-    cmds_list = [['python', 'find_threshold.py', 'with', config] for config in configs]
-    i = 0
-    active_num = 0
-    finished = 0
-    spawn_procs = []
-    print(f'Starting a total of {len(configs)} experiments...')
-    while finished < len(cmds_list):
-
-        if active_num < max_concurr and i < len(cmds_list):
-            p = Popen(cmds_list[i])
-            i += 1
-            print(f'EXPERIMENTS STARTED: {i}')
-            active_num += 1
-            print(f'EXPERIMENTS RUNNING ATM: {active_num}')
-            spawn_procs.append(p)
-
-        to_del = []
-        for ind, proc in enumerate(spawn_procs):
-            if proc.poll() is not None:
-                active_num -= 1
-                finished += 1
-                print(f'EXPERIMENTS COMPLETED: {finished}')
-                to_del.append(ind)
-
-        for j in to_del:
-            del spawn_procs[j]
-    print('Experiments done. :)')
+    company_reader.convert_companies(out_file, keep_going=keep_going)
 
 
 if __name__ == '__main__':
-    main()
+    extract_csv_to_json()
